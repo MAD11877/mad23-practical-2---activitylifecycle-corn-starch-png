@@ -60,7 +60,7 @@
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="ching cong ching chongching cong ching chongching cong ching chongching cong ching chongching cong ching chongching cong ching chongching cong ching chongching cong ching chongching cong ching chong"
+        android:text="ching cong ching chongching cong ching chongching cong ching chongching cong ching chongching cong ching chongching cong ching chongching cong ching chongching cong ching chong ching cong ching chong"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.567"
