@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (u.getFollowed() == false) {
-                    btn.setText("unfollow");
+                    btn.setText("UNFOLLOW");
                     u.setFollowed(true);
                 }
                 else {
-                    btn.setText("follow");
+                    btn.setText("FOLLOW");
                     u.setFollowed(false);
                 }
             }
