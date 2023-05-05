@@ -45,15 +45,17 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="32dp"
+        android:layout_width="128dp"
         android:layout_height="128dp"
         android:layout_marginTop="32dp"
-        android:background="#00FFFFFF"
+        android:layout_marginBottom="8dp"
+        android:background="#1972E6"
         android:nestedScrollingEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@mipmap/ic_launcher_round" />
 
     <TextView
         android:id="@+id/textView"
