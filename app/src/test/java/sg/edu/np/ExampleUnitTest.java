@@ -1,4 +1,4 @@
-package com.example.test1;
+package sg.edu.np;
 
 import org.junit.Test;
 
