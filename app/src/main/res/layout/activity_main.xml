@@ -55,6 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginTop="32dp"
         app:srcCompat="@mipmap/ic_launcher_round" />
 
     <TextView
