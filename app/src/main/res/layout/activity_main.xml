@@ -26,8 +26,9 @@
         android:text="Hello World!"
         android:textSize="36sp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/shapeableImageView"
-        tools:layout_editor_absoluteX="106dp" />
+        app:layout_constraintEnd_toEndOf="@+id/shapeableImageView"
+        app:layout_constraintStart_toStartOf="@+id/shapeableImageView"
+        app:layout_constraintTop_toBottomOf="@+id/shapeableImageView" />
 
     <Button
         android:id="@+id/btnFollow"
